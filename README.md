@@ -187,6 +187,13 @@ def convert_to_columns(self,line):
 ```
 Una vez que obtenemos nuestra cadena de texto resultado de la transformación del xslt + xml lo único que tenemos que hacer es transformarlo a una lista. Para eso definimos la función **convert_to_columns**. Esta función simplemente hace un split a un string utilizando el carácter “~” que definimos dentro de nuestro template **cfdi33.xslt** para separar cada valor del xml.
 
+Para implementar la clase Transformer y poder obtener el resultado de la transformación utilizamos el siguiente codigo:
+```python
+if __name__ == "__main__":
+    transformer = Transformer()
+    result = transformer.to_columns_from_file('cfdi33.xml')
+    print(result)
+```
 Utilizando la transformación de xml - texto y su transformación de texto a lista obtenemos el siguiente resultado:
 ```text
 ['3.3', 'F', '6', '2019-09-28T21:05:58', '20001000000300022815', '12000.00', '', '13920.00']
