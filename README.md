@@ -230,6 +230,3 @@ Si necesitas convertir xml cfdi 3.3 puedes utilizar nuestra librería open sourc
 Si deseas colaborar a nuestra librería contactanos a dev@sw.com.mx o a través de nuestro repositorio en github:
 
 [https://github.com/swsapien/pycfdi-transform](https://github.com/swsapien/pycfdi-transform)
-
-Hermes Jimenez Luna | hermes.jimenez@sw.com.mx
-
